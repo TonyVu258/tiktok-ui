@@ -18,9 +18,9 @@
     justify-content: space-between;
 }
 
-.search, .search-result {
+.search,
+.search-result {
     width: 361px;
-
 }
 .search {
     position: relative;
@@ -37,7 +37,7 @@
         color: var(--black, #000);
         font-size: 1.6rem;
         background-color: transparent;
-        caret-color: red;
+        caret-color: var(--primary);
     }
 
     input:not(:placeholder-shown) ~ .search-btn {
@@ -59,7 +59,7 @@
     }
 }
 
-.search-title{
+.search-title {
     color: rgba(22, 24, 35, 0.5);
     font-size: 1.4rem;
     padding: 5px 12px;
