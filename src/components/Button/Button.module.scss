@@ -9,7 +9,7 @@
     background-color: var(--white);
     height: 36px;
     user-select: none;
-    // display: inline-flex;
+    display: inline-flex;
     justify-content: center;
 
     + .wrapper {
@@ -79,4 +79,10 @@
 .large {
     min-width: 140px;
     padding: 14px 16px;
+}
+
+.icon{
+    text-align: center;
+    display: inline-block;
+    width: 20px;
 }

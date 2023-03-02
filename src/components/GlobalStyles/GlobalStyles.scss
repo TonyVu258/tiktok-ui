@@ -61,6 +61,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'SofiaPro', sans-serif;
 }
 
 html{
@@ -68,7 +69,6 @@ html{
 }
 
 body{
-    font-family: 'SofiaPro', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed; // tối ưu tốc độ load font
